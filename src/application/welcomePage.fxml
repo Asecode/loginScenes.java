@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.welcomePageController">
+   <children>
+      <Label layoutX="172.0" layoutY="62.0" prefHeight="36.0" prefWidth="193.0" text="Welcome" wrapText="true">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="167.0" prefHeight="53.0" prefWidth="360.0" text="Please choose one">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="headBtn" layoutX="54.0" layoutY="308.0" mnemonicParsing="false" onAction="#handleHeadBtnClicked" prefHeight="39.0" prefWidth="160.0" text="Headmaster">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="teachBtn" layoutX="302.0" layoutY="308.0" mnemonicParsing="false" onAction="#handleTeachBtnClicked" prefHeight="39.0" prefWidth="160.0" text="Teacher">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
